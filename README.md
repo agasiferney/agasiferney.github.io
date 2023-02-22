@@ -1,1 +1,1 @@
-Site of the AGASI associated; hosted at agasiferney.github.io
+Site of the AGASI association. Freely hosted at agasiferney.github.io
