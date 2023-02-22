@@ -33,7 +33,7 @@ img.emoji {
 .wp-block-navigation a:where(:not(.wp-element-button)){color: inherit;}
 :where(.wp-block-columns.is-layout-flex){gap: 2em;}
 .wp-block-pullquote{font-size: 1.5em;line-height: 1.6;}</style>
-<link rel="stylesheet" id="neve-style-css" href="/wp-content/themes/neve/style-main-new.min.css?ver=3.5.1" type="text/css" media="all">
+<link rel="stylesheet" id="neve-style-css" href="/wp-content/themes/neve/style-main-new.min.css?ver=3.5.3" type="text/css" media="all">
 <style id="neve-style-inline-css" type="text/css">.nv-meta-list li.meta:not(:last-child):after { content:"/" }.nv-meta-list .no-mobile{
 			display:none;
 		}.nv-meta-list li.last::after{
@@ -88,12 +88,12 @@ img.emoji {
 	<div role="navigation" class="nav-menu-primary style-border-bottom m-style" aria-label="Primary Menu">
 
 		<ul id="nv-primary-navigation-main" class="primary-menu-ul nav-ul menu-desktop">
-<li id="menu-item-19" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-19"><a href="/">Home</a></li>
-<li id="menu-item-98" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-98"><a href="/agasi/">AGASI</a></li>
-<li id="menu-item-136" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-136"><a href="/news/">News</a></li>
-<li id="menu-item-53" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-50 current_page_item menu-item-53"><a href="/scuola-primaria/" aria-current="page">Scuola primaria</a></li>
-<li id="menu-item-107" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-107"><a href="/college-licee/">Collége &#038; Licée</a></li>
-<li id="menu-item-46" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-46"><a href="/contact/">Contatti</a></li>
+<li id="menu-item-19" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-19"><div class="wrap"><a href="/">Home</a></div></li>
+<li id="menu-item-98" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-98"><div class="wrap"><a href="/agasi/">AGASI</a></div></li>
+<li id="menu-item-53" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-50 current_page_item menu-item-53"><div class="wrap"><a href="/scuola-primaria/" aria-current="page">Scuola primaria</a></div></li>
+<li id="menu-item-107" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-107"><div class="wrap"><a href="/college-licee/">Collège &#038; Licée</a></div></li>
+<li id="menu-item-136" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-136"><div class="wrap"><a href="/news/">News</a></div></li>
+<li id="menu-item-224" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-224"><div class="wrap"><a href="/conta/">Contatti</a></div></li>
 </ul>	</div>
 </div>
 
@@ -161,12 +161,12 @@ img.emoji {
 	<div role="navigation" class="nav-menu-primary style-border-bottom m-style" aria-label="Primary Menu">
 
 		<ul id="nv-primary-navigation-sidebar" class="primary-menu-ul nav-ul menu-mobile">
-<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-19"><a href="/">Home</a></li>
-<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-98"><a href="/agasi/">AGASI</a></li>
-<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-136"><a href="/news/">News</a></li>
-<li class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-50 current_page_item menu-item-53"><a href="/scuola-primaria/" aria-current="page">Scuola primaria</a></li>
-<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-107"><a href="/college-licee/">Collége &#038; Licée</a></li>
-<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-46"><a href="/contact/">Contatti</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-19"><div class="wrap"><a href="/">Home</a></div></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-98"><div class="wrap"><a href="/agasi/">AGASI</a></div></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-50 current_page_item menu-item-53"><div class="wrap"><a href="/scuola-primaria/" aria-current="page">Scuola primaria</a></div></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-107"><div class="wrap"><a href="/college-licee/">Collège &#038; Licée</a></div></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-136"><div class="wrap"><a href="/news/">News</a></div></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-224"><div class="wrap"><a href="/conta/">Contatti</a></div></li>
 </ul>	</div>
 </div>
 
@@ -179,7 +179,8 @@ img.emoji {
 </div>
 	</header>
 
-	<div class="nv-post-cover">
+	<style>.is-menu-sidebar .header-menu-sidebar { visibility: visible; }.is-menu-sidebar.menu_sidebar_slide_left .header-menu-sidebar { transform: translate3d(0, 0, 0); left: 0; }.is-menu-sidebar.menu_sidebar_slide_right .header-menu-sidebar { transform: translate3d(0, 0, 0); right: 0; }.is-menu-sidebar.menu_sidebar_pull_right .header-menu-sidebar, .is-menu-sidebar.menu_sidebar_pull_left .header-menu-sidebar { transform: translateX(0); }.is-menu-sidebar.menu_sidebar_dropdown .header-menu-sidebar { height: auto; }.is-menu-sidebar.menu_sidebar_dropdown .header-menu-sidebar-inner { max-height: 400px; padding: 20px 0; }.is-menu-sidebar.menu_sidebar_full_canvas .header-menu-sidebar { opacity: 1; }.header-menu-sidebar .menu-item-nav-search { pointer-events: none; }.header-menu-sidebar .menu-item-nav-search .is-menu-sidebar & { pointer-events: unset; }.nav-ul li:focus-within .wrap.active + .sub-menu { opacity: 1; visibility: visible; }.nav-ul li.neve-mega-menu:focus-within .wrap.active + .sub-menu { display: grid; }.nav-ul li > .wrap { display: flex; align-items: center; position: relative; padding: 0 4px; }.nav-ul:not(.menu-mobile):not(.neve-mega-menu) > li > .wrap > a { padding-top: 1px }</style>
+<div class="nv-post-cover">
 <div class="nv-overlay"></div>
 <div class="container"><div class="nv-title-meta-wrap "><h1 class="title entry-title">Scuola primaria</h1></div></div>
 </div>
@@ -191,23 +192,15 @@ img.emoji {
 	<div class="row">
 				<div class="nv-single-page-wrap col">
 			<div class="nv-content-wrap entry-content">
-<h2 class="has-text-align-center"><strong>Corsi di lingua e cultura italiana</strong></h2>
+<p class="has-text-align-left">I corsi di italiano per la scuola primaria, dalla prima alla quinta elementare, offrono un&#8217;opportunità educativa ricca e coinvolgente per l&#8217;apprendimento della lingua e della cultura italiana, sia per chi vuole proseguire il percorso nella sezione italiana della <em><a href="https://lyc-international-ferney-voltaire.ent.auvergnerhonealpes.fr/" data-type="URL" data-id="https://lyc-international-ferney-voltaire.ent.auvergnerhonealpes.fr" target="_blank" rel="noreferrer noopener">Cité Scolaire Internationale</a></em> di Ferney, sia per chi desidera mantenere un contatto vivo e stimolante con le proprie radici. </p>
 
 
 
-<p>I corsi di italiano per la scuola primaria, dalla prima alla quinta elementare, offrono un&#8217;opportunità educativa ricca e coinvolgente per l&#8217;apprendimento della lingua e della cultura italiana, sia per chi vuole proseguire il percorso nella sezione italiana della <em><a href="https://lyc-international-ferney-voltaire.ent.auvergnerhonealpes.fr/" data-type="URL" data-id="https://lyc-international-ferney-voltaire.ent.auvergnerhonealpes.fr" target="_blank" rel="noreferrer noopener">Cité Scolaire Internationale</a></em> di Ferney, sia per chi desidera mantenere un contatto vivo e stimolante con le proprie radici. </p>
+<p>I corsi prevedono tre ore settimanali in cui si affronta il programma di lingua, storia e geografia e sono integrati nel percorso scolastico della scuola francese. I corsi infatti sono riconosciuto ufficialmente dall&#8217;<em><a href="https://www.education.gouv.fr/" target="_blank" rel="noreferrer noopener">Education Nationale Française</a></em> tramite un Protocollo: gli alunni frequentano regolarmente la scuola primaria francese del proprio comune di residenza e un pomeriggio a settimana i corsi di lingua nazionale.</p>
 
 
 
-<p>I corsi prevedono tre ore settimanali in cui si affronta un programma di lingua, storia e geografia e sono integrati al percorso scolastico della scuola francese. I corsi infatti sono riconosciuto ufficialmente dall&#8217;<em>Education Nationale Française</em> tramite un Protocollo: gli alunni frequentano regolarmente la scuola primaria francese del proprio comune di residenza e un pomeriggio a settimana i corsi di lingua nazionale.</p>
-
-
-
-<p>I corsi sono propedeutici all&#8217;iscrizione alla sezione italiana del <em>collège</em> e preparano a sostenere l&#8217;esame di ammissione alla classe <em>6ème</em>. I corsi del mercoledì sono aperti anche ad alunni frequentanti scuole svizzere o scuole francesi non paritarie.</p>
-
-
-
-<p>I corsi della scuola primaria sono privati e gestiti da AGASI che si occupa dell&#8217;organizzazione dei corsi e dell&#8217;assunzione delle insegnanti.</p>
+<p>I corsi sono propedeutici all&#8217;iscrizione alla sezione italiana del <em>collège</em> e preparano a sostenere l&#8217;esame di ammissione alla classe <em>6ème</em>. I corsi della scuola primaria sono privati e gestiti da AGASI che si occupa dell&#8217;organizzazione dei corsi e dell&#8217;assunzione delle insegnanti.</p>
 
 
 
@@ -215,7 +208,7 @@ img.emoji {
 
 
 
-<p>I corsi&nbsp;di scuola primaria AGASI sono rivolti a tutti i bambini con una conoscenza della lingua italiana adeguata al livello del corso richiesto. È dunque previsto un test di ammissione per tutti i nuovi iscritti alle classi dalla CE1 alla CM2. Nessun test di ammissione è previsto per chi si iscrive alla classe CP, ma un livello minimo di comprensione della lingua italiana. <br><br>Per informazioni sulla data del prossimo test di ammissione e per i moduli di iscrizione consulta la pagina <a href="/news/" data-type="page" data-id="133">News</a> del sito.</p>
+<p>I corsi&nbsp;di scuola primaria AGASI sono rivolti a tutte le bambine ed i bambini con una conoscenza della lingua italiana adeguata al livello del corso richiesto. È dunque previsto un test di ammissione per tutti i nuovi iscritti alle classi dalla CE1 alla CM2. Nessun test di ammissione è previsto per chi si iscrive alla classe CP, ma un livello minimo di comprensione della lingua italiana. <br><br>Per informazioni sulla data del prossimo test di ammissione e per i moduli di iscrizione consulta la pagina <a href="/news/" data-type="page" data-id="133">News</a> di questo sito.</p>
 
 
 
@@ -223,15 +216,15 @@ img.emoji {
 
 
 
-<p>L’Associazione non riceve finanziamenti né dal governo italiano, né da quello francese, e la sua autonomia finanziaria è strettamente legata ai contributi delle famiglie.</p>
+<p>L’Associazione non riceve finanziamenti né dal governo italiano, né da quello francese, e la sua autonomia finanziaria è conseguenza diretta dei contributi delle famiglie.</p>
 
 
 
-<p>L&#8217;ammontare delle quote figurerà nel modulo di iscrizione e sulla pagina <a href="/news/" data-type="page" data-id="133">News</a> del sito. Le quote sono riferite ad ogni bambino frequentante e potranno subire una variazione in funzione del numero effettivo degli iscritti: in tal caso sarà effettuato un conguaglio nel mese di gennaio.</p>
+<p>L&#8217;ammontare della quota figurerà nel modulo di iscrizione e sulla pagina <a href="/news/" data-type="page" data-id="133">News</a> di questo sito. Le quote sono riferite ad ogni bambina o bambino frequentante e potranno subire una variazione in funzione del numero effettivo degli iscritti: in tal caso sarà effettuato un conguaglio nel mese di gennaio.</p>
 
 
 
-<p>Per le famiglie aventi un reddito annuo complessivo inferiore a 50,000 € è prevista una quota agevolata. Per usufruire di tale agevolazione il richiedente dovrà presentare apposita documentazione. L’AGASI esaminerà attentamente eventuali richieste nel rispetto della confidenzialità delle informazioni ricevute. Le famiglie interessate sono caldamente invitate a contattare direttamente il <a>Presidente</a> o il <a>Tesoriere</a> dell’associazione. </p>
+<p>Per le famiglie aventi un reddito annuo complessivo inferiore a 50,000 € è prevista una quota agevolata. Per usufruire di tale agevolazione il richiedente dovrà presentare apposita documentazione. L’AGASI esaminerà attentamente eventuali richieste nel rispetto della confidenzialità delle informazioni ricevute. Le famiglie interessate sono caldamente invitate a contattare direttamente l’associazione. </p>
 
 
 
@@ -243,7 +236,7 @@ img.emoji {
 
 
 
-<p>La quota associativa annuale è valida per l’intero nucleo familiare ed è obbligatoria per l&#8217;iscrizione dei figli ai corsi di scuola primaria. La quota è di 60 € per Socio Ordinario e di 100 € per Socio Sostenitore.</p>
+<p>La quota associativa annuale è valida per l’intero nucleo familiare ed è obbligatoria per l&#8217;iscrizione dei figli ai corsi della scuola primaria. La quota è di 60 € per Socio Ordinario e di 100 € per Socio Sostenitore.</p>
 
 
 
@@ -251,7 +244,7 @@ img.emoji {
 
 
 
-<p>Il pagamento delle quote annuali può essere effettuato tramite bonifico bancario o tramite assegno (se possibile privilegiare il pagamento tramite bonifico). Nessuna iscrizione sarà considerata completa fino ad avvenuto pagamento. Preghiamo inoltre le famiglie residenti in Svizzera o all&#8217;estero di effettuare il pagamento con spese a carico dell&#8217;esecutore.</p>
+<p>Il pagamento delle quote annuali può essere effettuato tramite bonifico bancario. Nessuna iscrizione sarà considerata completa fino all&#8217;avvenuta ricezione del pagamento. Preghiamo inoltre le famiglie residenti in Svizzera o all&#8217;estero di effettuare il pagamento con spese a carico dell&#8217;esecutore.</p>
 
 
 
@@ -273,17 +266,7 @@ img.emoji {
 
 
 
-<p>In seguito al ritiro di un alunno dai corsi AGASI, le richieste di rimborso seguiranno lo schema seguente:</p>
-
-
-
-<ul>
-<li>Quota di iscrizione rimborsata al 100% e quota associativa non rimborsata se richiesta perviene entro il 30/09 dell&#8217;anno scolastico in corso</li>
-
-
-
-<li>Quota di iscrizione e quota associativa non rimborsate se richiesta perviene oltre il 30 Settembre dell’anno scolastico in corso</li>
-</ul>
+<p>In seguito al ritiro di un alunno dai corsi AGASI, la quota di iscrizione verrà rimborsata al 100% unicamente se la richiesta perviene entro il 30 Settembre dell&#8217;anno scolastico in corso. La quota associativa, invece, e la quota di iscrizione se la richiesta perviene dopo il 30 Settembre non potranno essere rimborsate.</p>
 
 
 
@@ -322,10 +305,10 @@ img.emoji {
 <!--/.wrapper-->
 <script type="text/javascript" id="neve-script-js-extra">
 /* <![CDATA[ */
-var NeveProperties = {"ajaxurl":"\/wp-admin\/admin-ajax.php","nonce":"56e0499c18","isRTL":"","isCustomize":""};
+var NeveProperties = {"ajaxurl":"\/wp-admin\/admin-ajax.php","nonce":"a210dd18b8","isRTL":"","isCustomize":""};
 /* ]]> */
 </script>
-<script type="text/javascript" src="/wp-content/themes/neve/assets/js/build/modern/frontend.js?ver=3.5.1" id="neve-script-js" async></script>
+<script type="text/javascript" src="/wp-content/themes/neve/assets/js/build/modern/frontend.js?ver=3.5.3" id="neve-script-js" async></script>
 <script type="text/javascript" id="neve-script-js-after">
 	var html = document.documentElement;
 	var theme = html.getAttribute('data-neve-theme') || 'light';
